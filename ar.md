@@ -20,7 +20,7 @@
 
 ## لقطة الشاشة
 
-![PC Time Tracker](screenshot.png)
+![PC Time Tracker](screenshot_ar.png)
 
 ## التثبيت والتشغيل
 

@@ -20,7 +20,7 @@ Cronómetro de tiempo de escritorio ligero para Windows. Cuenta cuánto tiempo p
 
 ## Captura de pantalla
 
-![PC Time Tracker](screenshot.png)
+![PC Time Tracker](screenshot_es.png)
 
 ## Instalación y ejecución
 

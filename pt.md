@@ -20,7 +20,7 @@ Cronômetro de tempo de uso leve para Windows. Conta quanto tempo você passa no
 
 ## Captura de tela
 
-![PC Time Tracker](screenshot.png)
+![PC Time Tracker](screenshot_pt.png)
 
 ## Instalação e execução
 

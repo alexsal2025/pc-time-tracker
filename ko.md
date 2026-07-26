@@ -20,7 +20,7 @@ Windows 용 가벼운 데스크톱 사용 시간 추적기. PC 앞에서 보낸 
 
 ## 스크린샷
 
-![PC Time Tracker](screenshot.png)
+![PC Time Tracker](screenshot_ko.png)
 
 ## 설치 및 실행
 
