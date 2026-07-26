@@ -20,7 +20,7 @@ Chronomètre de bureau léger pour Windows. Compte le temps passé devant l'ordi
 
 ## Capture d'écran
 
-![PC Time Tracker](screenshots/fr.png)
+![PC Time Tracker](../screenshots/fr.png)
 
 ## Installation et lancement
 

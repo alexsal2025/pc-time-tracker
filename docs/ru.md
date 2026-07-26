@@ -20,7 +20,7 @@
 
 ## Скриншот
 
-![PC Time Tracker](screenshots/ru.png)
+![PC Time Tracker](../screenshots/ru.png)
 
 ## Установка и запуск
 

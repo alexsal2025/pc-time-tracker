@@ -20,7 +20,7 @@
 
 ## 界面截图
 
-![PC Time Tracker](screenshots/zh.png)
+![PC Time Tracker](../screenshots/zh.png)
 
 ## 安装与运行
 

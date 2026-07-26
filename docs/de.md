@@ -20,7 +20,7 @@ Leichtgewichtiger Zeiterfassungstool für Windows. Zählt, wie lange du am PC ar
 
 ## Screenshot
 
-![PC Time Tracker](screenshots/de.png)
+![PC Time Tracker](../screenshots/de.png)
 
 ## Installation und Start
 

@@ -20,7 +20,7 @@ Windows 向けの軽量なデスクトップ利用時間トラッカー。PC の
 
 ## スクリーンショット
 
-![PC Time Tracker](screenshots/ja.png)
+![PC Time Tracker](../screenshots/ja.png)
 
 ## インストールと実行
 
