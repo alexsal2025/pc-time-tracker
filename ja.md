@@ -20,26 +20,7 @@ Windows 向けの軽量なデスクトップ利用時間トラッカー。PC の
 
 ## スクリーンショット
 
-```
-┌─ PC Time Tracker ───────────────────┐
-│  CURRENT SESSION                    │
-│  01:23:45                           │
-│  counting · idle 8 sec              │
-│                                     │
-│  TODAY                              │
-│  03:12:00   ▓▓▓▓▓▓░░░░░░░░░░ / 8 h  │
-│                                     │
-│      [▶ Start]      [↺ Reset]       │
-│                                     │
-│  [ ] Always on top   [✓] Auto-pause │
-│  Idle timeout, sec:  [300] (10…3600)│
-│  Daily goal, h:      [8]   (1…24)   │
-│  Language:           [English ▾]     │
-│                                     │
-│  HISTORY (7 days)            Σ 12:00 │
-│  ...                                │
-└─────────────────────────────────────┘
-```
+![PC Time Tracker](screenshot.png)
 
 ## インストールと実行
 

@@ -20,26 +20,7 @@ Cronómetro de tiempo de escritorio ligero para Windows. Cuenta cuánto tiempo p
 
 ## Captura de pantalla
 
-```
-┌─ PC Time Tracker ───────────────────┐
-│  CURRENT SESSION                    │
-│  01:23:45                           │
-│  counting · idle 8 sec              │
-│                                     │
-│  TODAY                              │
-│  03:12:00   ▓▓▓▓▓▓░░░░░░░░░░ / 8 h  │
-│                                     │
-│      [▶ Start]      [↺ Reset]       │
-│                                     │
-│  [ ] Always on top   [✓] Auto-pause │
-│  Idle timeout, sec:  [300] (10…3600)│
-│  Daily goal, h:      [8]   (1…24)   │
-│  Language:           [English ▾]     │
-│                                     │
-│  HISTORY (7 days)            Σ 12:00 │
-│  ...                                │
-└─────────────────────────────────────┘
-```
+![PC Time Tracker](screenshot.png)
 
 ## Instalación y ejecución
 
