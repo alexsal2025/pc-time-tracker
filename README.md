@@ -1,65 +1,63 @@
 # PC Time Tracker
 
-Лёгкий десктопный таймер, который считает, сколько времени ты проводишь за ПК.
-Один файл на чистом Python + tkinter, без зависимостей.
+Lightweight desktop time tracker for Windows. Counts how long you spend at the PC, with auto-pause on idle, configurable daily goal, and 7-day history.
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Возможности
+## Features
 
-- 🕒 Большой таймер текущей сессии + итог дня
-- ⏸ Кнопки **Старт / Пауза / Сброс**
-- 😴 **Автопауза** при бездействии — порог настраивается (10…3600 сек)
-- 🎯 Своя **цель дня** (1–24 ч) — прогресс-шкала идёт к ней
-- 🌐 **10 языков интерфейса**: ru, en, 中文, es, fr, de, pt, ja, ko, ar
-- 📊 История за 7 дней с полосками прогресса
-- 🪟 Режим «Поверх всех окон»
-- 💾 Автосохранение каждые 10 секунд + при закрытии — сессия переживёт перезагрузку
-- 🎨 Тёмная тема, шрифты Consolas/Segoe UI
+- 🕒 Big current-session timer + daily total
+- ⏸ **Start / Pause / Reset** buttons
+- 😴 **Auto-pause** on idle — threshold adjustable (10…3600 sec)
+- 🎯 Configurable **daily goal** (1–24 h) with a progress bar
+- 📊 **7-day history** with progress bars per day
+- 🪟 "Always on top" toggle
+- 💾 Auto-save every 10 seconds and on close — sessions survive a reboot
+- 🎨 Dark theme, Consolas/Segoe UI fonts
+- 🇬🇧 English UI
 
-## Скриншот
+## Screenshot
 
 ```
 ┌─ PC Time Tracker ───────────────────┐
-│  ТЕКУЩАЯ СЕССИЯ                      │
-│  01:23:45                            │
-│  идёт отсчёт · простой 8 сек         │
-│                                      │
-│  СЕГОДНЯ                             │
-│  03:12:00   ▓▓▓▓▓▓░░░░░░░░░░ / 8 ч   │
-│                                      │
-│      [▶ Старт]      [↺ Сброс]        │
-│                                      │
-│  [ ] Поверх всех окон  [✓] Автопауза │
-│  Таймаут простоя: [300]  (10…3600)   │
-│  Цель дня, ч:     [8]    (1…24)      │
-│  Язык:             [Русский ▾]       │
-│                                      │
-│  ИСТОРИЯ (7 дней)            Σ 12:00 │
-│  ...                                 │
-└──────────────────────────────────────┘
+│  CURRENT SESSION                    │
+│  01:23:45                           │
+│  counting · idle 8 sec              │
+│                                     │
+│  TODAY                              │
+│  03:12:00   ▓▓▓▓▓▓░░░░░░░░░░ / 8 h  │
+│                                     │
+│      [▶ Start]      [↺ Reset]       │
+│                                     │
+│  [ ] Always on top   [✓] Auto-pause │
+│  Idle timeout, sec:  [300] (10…3600)│
+│  Daily goal, h:      [8]   (1…24)   │
+│                                     │
+│  HISTORY (7 days)            Σ 12:00 │
+│  ...                                │
+└─────────────────────────────────────┘
 ```
 
-## Установка и запуск
+## Install & Run
 
-Нужен только **Python 3.10+** с модулем `tkinter` (идёт в комплекте с Python на Windows).
+Requires **Python 3.10+** with the `tkinter` module (included by default on Windows).
 
 ```bash
 python pc_time_tracker.py
 ```
 
-Двойной клик по файлу тоже сработает, если `.py` ассоциирован с Python.
+Double-click works too, if `.py` is associated with Python.
 
-## Где хранятся данные
+## Where data is stored
 
-Все настройки и история — в одном JSON-файле:
+All settings and history live in a single JSON file:
 
 ```
 %APPDATA%\PCTimeTracker\data.json
 ```
 
-## Лицензия
+## License
 
 MIT

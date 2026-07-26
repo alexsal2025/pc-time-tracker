@@ -21,37 +21,10 @@ UPDATE_INTERVAL_MS = 500       # как часто обновлять UI
 SAVE_INTERVAL_SEC = 10         # как часто сохранять на диск
 HISTORY_DAYS = 30              # сколько дней истории хранить
 DEFAULT_GOAL_HOURS = 8         # цель дня по умолчанию
-DEFAULT_LANG = "ru"            # язык по умолчанию
+DEFAULT_LANG = "en"            # язык по умолчанию (English only)
 
-# ---------- Переводы (10 языков) ----------
-# Ключи одинаковые во всех языках, заполняй все.
+# ---------- Переводы (только English) ----------
 TRANSLATIONS = {
-    "ru": {
-        "title_app": "PC Time Tracker",
-        "current_session": "ТЕКУЩАЯ СЕССИЯ",
-        "today": "СЕГОДНЯ",
-        "history": "ИСТОРИЯ (7 дней)",
-        "start": "▶ Старт",
-        "pause": "⏸ Пауза",
-        "reset": "↺ Сброс",
-        "paused": "на паузе",
-        "running": "идёт отсчёт",
-        "auto_pause": "Автопауза",
-        "ontop": "Поверх всех окон",
-        "timeout": "Таймаут простоя, сек:",
-        "timeout_range": "(10…3600)",
-        "goal": "Цель дня, ч:",
-        "goal_range": "(1…24)",
-        "lang_label": "Язык:",
-        "reset_title": "Сброс",
-        "reset_msg": "Обнулить текущую сессию? (Итог дня сохранится.)",
-        "today_short": "сегодня",
-        "status_autopause": "автопауза · простой {t}",
-        "status_idle": "идёт отсчёт · простой {t}",
-        "goal_suffix": " / {n} ч",
-        "history_total": "Σ {t}",
-        "name": "Русский",
-    },
     "en": {
         "title_app": "PC Time Tracker",
         "current_session": "CURRENT SESSION",
@@ -68,7 +41,6 @@ TRANSLATIONS = {
         "timeout_range": "(10…3600)",
         "goal": "Daily goal, h:",
         "goal_range": "(1…24)",
-        "lang_label": "Language:",
         "reset_title": "Reset",
         "reset_msg": "Reset the current session? (Today's total will be kept.)",
         "today_short": "today",
@@ -76,219 +48,10 @@ TRANSLATIONS = {
         "status_idle": "counting · idle {t}",
         "goal_suffix": " / {n} h",
         "history_total": "Σ {t}",
-        "name": "English",
-    },
-    "zh": {
-        "title_app": "PC Time Tracker",
-        "current_session": "当前会话",
-        "today": "今天",
-        "history": "历史记录 (7 天)",
-        "start": "▶ 开始",
-        "pause": "⏸ 暂停",
-        "reset": "↺ 重置",
-        "paused": "已暂停",
-        "running": "计时中",
-        "auto_pause": "自动暂停",
-        "ontop": "置顶窗口",
-        "timeout": "空闲超时, 秒:",
-        "timeout_range": "(10…3600)",
-        "goal": "每日目标, 小时:",
-        "goal_range": "(1…24)",
-        "lang_label": "语言:",
-        "reset_title": "重置",
-        "reset_msg": "重置当前会话? (今日总计将保留)",
-        "today_short": "今天",
-        "status_autopause": "自动暂停 · 空闲 {t}",
-        "status_idle": "计时中 · 空闲 {t}",
-        "goal_suffix": " / {n} 小时",
-        "history_total": "Σ {t}",
-        "name": "中文",
-    },
-    "es": {
-        "title_app": "PC Time Tracker",
-        "current_session": "SESIÓN ACTUAL",
-        "today": "HOY",
-        "history": "HISTORIAL (7 días)",
-        "start": "▶ Iniciar",
-        "pause": "⏸ Pausa",
-        "reset": "↺ Reiniciar",
-        "paused": "en pausa",
-        "running": "contando",
-        "auto_pause": "Pausa auto",
-        "ontop": "Siempre encima",
-        "timeout": "Tiempo de espera, seg:",
-        "timeout_range": "(10…3600)",
-        "goal": "Meta diaria, h:",
-        "goal_range": "(1…24)",
-        "lang_label": "Idioma:",
-        "reset_title": "Reiniciar",
-        "reset_msg": "¿Reiniciar la sesión actual? (El total de hoy se conserva.)",
-        "today_short": "hoy",
-        "status_autopause": "pausa auto · inactivo {t}",
-        "status_idle": "contando · inactivo {t}",
-        "goal_suffix": " / {n} h",
-        "history_total": "Σ {t}",
-        "name": "Español",
-    },
-    "fr": {
-        "title_app": "PC Time Tracker",
-        "current_session": "SESSION ACTUELLE",
-        "today": "AUJOURD'HUI",
-        "history": "HISTORIQUE (7 jours)",
-        "start": "▶ Démarrer",
-        "pause": "⏸ Pause",
-        "reset": "↺ Réinitialiser",
-        "paused": "en pause",
-        "running": "en cours",
-        "auto_pause": "Pause auto",
-        "ontop": "Toujours visible",
-        "timeout": "Délai d'inactivité, sec:",
-        "timeout_range": "(10…3600)",
-        "goal": "Objectif quotidien, h:",
-        "goal_range": "(1…24)",
-        "lang_label": "Langue:",
-        "reset_title": "Réinitialiser",
-        "reset_msg": "Réinitialiser la session actuelle ? (Le total du jour est conservé.)",
-        "today_short": "aujourd'hui",
-        "status_autopause": "pause auto · inactif {t}",
-        "status_idle": "en cours · inactif {t}",
-        "goal_suffix": " / {n} h",
-        "history_total": "Σ {t}",
-        "name": "Français",
-    },
-    "de": {
-        "title_app": "PC Time Tracker",
-        "current_session": "AKTUELLE SITZUNG",
-        "today": "HEUTE",
-        "history": "VERLAUF (7 Tage)",
-        "start": "▶ Start",
-        "pause": "⏸ Pause",
-        "reset": "↺ Zurücksetzen",
-        "paused": "pausiert",
-        "running": "läuft",
-        "auto_pause": "Auto-Pause",
-        "ontop": "Immer im Vordergrund",
-        "timeout": "Leerlauf-Zeit, Sek:",
-        "timeout_range": "(10…3600)",
-        "goal": "Tagesziel, Std:",
-        "goal_range": "(1…24)",
-        "lang_label": "Sprache:",
-        "reset_title": "Zurücksetzen",
-        "reset_msg": "Aktuelle Sitzung zurücksetzen? (Tagessumme bleibt erhalten.)",
-        "today_short": "heute",
-        "status_autopause": "Auto-Pause · inaktiv {t}",
-        "status_idle": "läuft · inaktiv {t}",
-        "goal_suffix": " / {n} Std",
-        "history_total": "Σ {t}",
-        "name": "Deutsch",
-    },
-    "pt": {
-        "title_app": "PC Time Tracker",
-        "current_session": "SESSÃO ATUAL",
-        "today": "HOJE",
-        "history": "HISTÓRICO (7 dias)",
-        "start": "▶ Iniciar",
-        "pause": "⏸ Pausar",
-        "reset": "↺ Reiniciar",
-        "paused": "em pausa",
-        "running": "contando",
-        "auto_pause": "Pausa auto",
-        "ontop": "Sempre no topo",
-        "timeout": "Tempo ocioso, seg:",
-        "timeout_range": "(10…3600)",
-        "goal": "Meta diária, h:",
-        "goal_range": "(1…24)",
-        "lang_label": "Idioma:",
-        "reset_title": "Reiniciar",
-        "reset_msg": "Reiniciar a sessão atual? (O total de hoje será mantido.)",
-        "today_short": "hoje",
-        "status_autopause": "pausa auto · ocioso {t}",
-        "status_idle": "contando · ocioso {t}",
-        "goal_suffix": " / {n} h",
-        "history_total": "Σ {t}",
-        "name": "Português",
-    },
-    "ja": {
-        "title_app": "PC Time Tracker",
-        "current_session": "現在のセッション",
-        "today": "今日",
-        "history": "履歴 (7日間)",
-        "start": "▶ 開始",
-        "pause": "⏸ 一時停止",
-        "reset": "↺ リセット",
-        "paused": "一時停止中",
-        "running": "計測中",
-        "auto_pause": "自動一時停止",
-        "ontop": "常に最前面",
-        "timeout": "アイドルタイムアウト, 秒:",
-        "timeout_range": "(10…3600)",
-        "goal": "1日の目標, 時間:",
-        "goal_range": "(1…24)",
-        "lang_label": "言語:",
-        "reset_title": "リセット",
-        "reset_msg": "現在のセッションをリセットしますか? (今日の合計は保持されます)",
-        "today_short": "今日",
-        "status_autopause": "自動一時停止 · アイドル {t}",
-        "status_idle": "計測中 · アイドル {t}",
-        "goal_suffix": " / {n} 時間",
-        "history_total": "Σ {t}",
-        "name": "日本語",
-    },
-    "ko": {
-        "title_app": "PC Time Tracker",
-        "current_session": "현재 세션",
-        "today": "오늘",
-        "history": "기록 (7일)",
-        "start": "▶ 시작",
-        "pause": "⏸ 일시정지",
-        "reset": "↺ 리셋",
-        "paused": "일시정지",
-        "running": "측정 중",
-        "auto_pause": "자동 일시정지",
-        "ontop": "항상 위에",
-        "timeout": "유휴 시간, 초:",
-        "timeout_range": "(10…3600)",
-        "goal": "일일 목표, 시간:",
-        "goal_range": "(1…24)",
-        "lang_label": "언어:",
-        "reset_title": "리셋",
-        "reset_msg": "현재 세션을 리셋하시겠습니까? (오늘 합계는 유지됩니다)",
-        "today_short": "오늘",
-        "status_autopause": "자동 일시정지 · 유휴 {t}",
-        "status_idle": "측정 중 · 유휴 {t}",
-        "goal_suffix": " / {n} 시간",
-        "history_total": "Σ {t}",
-        "name": "한국어",
-    },
-    "ar": {
-        "title_app": "PC Time Tracker",
-        "current_session": "الجلسة الحالية",
-        "today": "اليوم",
-        "history": "السجل (7 أيام)",
-        "start": "▶ بدء",
-        "pause": "⏸ إيقاف",
-        "reset": "↺ إعادة",
-        "paused": "متوقف",
-        "running": "جارٍ العد",
-        "auto_pause": "إيقاف تلقائي",
-        "ontop": "دائمًا في الأعلى",
-        "timeout": "مهلة الخمول، ثانية:",
-        "timeout_range": "(10…3600)",
-        "goal": "هدف اليوم، س:",
-        "goal_range": "(1…24)",
-        "lang_label": "اللغة:",
-        "reset_title": "إعادة",
-        "reset_msg": "إعادة تعيين الجلسة الحالية؟ (سيُحفظ مجموع اليوم)",
-        "today_short": "اليوم",
-        "status_autopause": "إيقاف تلقائي · خمول {t}",
-        "status_idle": "جارٍ العد · خمول {t}",
-        "goal_suffix": " / {n} س",
-        "history_total": "Σ {t}",
-        "name": "العربية",
     },
 }
 
-LANG_CODES = ["ru", "en", "zh", "es", "fr", "de", "pt", "ja", "ko", "ar"]
+LANG_CODES = ["en"]
 
 # ---------- Пути ----------
 APP_DIR = Path(os.environ.get("APPDATA", str(Path.home()))) / "PCTimeTracker"
@@ -492,7 +255,7 @@ class TimeTracker:
 
         # Цель дня
         goal_row = ttk.Frame(self.root, style="TFrame")
-        goal_row.pack(fill="x", padx=14, pady=(0, 6))
+        goal_row.pack(fill="x", padx=14, pady=(0, 10))
         self.goal_lbl = tk.Label(goal_row, bg=BG, fg=MUTED, font=("Segoe UI", 9))
         self.goal_lbl.pack(side="left")
         self.goal_var = tk.IntVar(value=self.goal_hours)
@@ -507,20 +270,6 @@ class TimeTracker:
         self.goal_spin.bind("<Return>", lambda e: self.update_goal())
         self.goal_range_lbl = tk.Label(goal_row, bg=BG, fg=MUTED, font=("Segoe UI", 8))
         self.goal_range_lbl.pack(side="left", padx=(6, 0))
-
-        # Язык
-        lang_row = ttk.Frame(self.root, style="TFrame")
-        lang_row.pack(fill="x", padx=14, pady=(0, 10))
-        self.lang_lbl = tk.Label(lang_row, bg=BG, fg=MUTED, font=("Segoe UI", 9))
-        self.lang_lbl.pack(side="left")
-        self.lang_codes = LANG_CODES
-        self.lang_names = [TRANSLATIONS[c]["name"] for c in LANG_CODES]
-        self.lang_var = tk.StringVar(value=TRANSLATIONS[self.lang]["name"])
-        self.lang_combo = ttk.Combobox(lang_row, textvariable=self.lang_var,
-                                       values=self.lang_names, state="readonly",
-                                       width=14, font=("Segoe UI", 9))
-        self.lang_combo.pack(side="left", padx=(8, 0))
-        self.lang_combo.bind("<<ComboboxSelected>>", self.on_lang_change)
 
         # История
         bot = ttk.Frame(self.root, style="Panel.TFrame", padding=(20, 12))
@@ -556,7 +305,6 @@ class TimeTracker:
         self.timeout_range_lbl.configure(text=self.t("timeout_range"))
         self.goal_lbl.configure(text=self.t("goal"))
         self.goal_range_lbl.configure(text=self.t("goal_range"))
-        self.lang_lbl.configure(text=self.t("lang_label"))
         # Кнопка start/pause — текст зависит от состояния
         self.refresh_buttons()
         # Цель в правом углу шкалы
@@ -564,16 +312,6 @@ class TimeTracker:
         # Статус
         if not self.running:
             self.status_label.configure(text=self.t("paused"), foreground=MUTED)
-
-    def on_lang_change(self, _evt=None):
-        name = self.lang_var.get()
-        for code in LANG_CODES:
-            if TRANSLATIONS[code]["name"] == name:
-                self.lang = code
-                break
-        self.data["lang"] = self.lang
-        self.save()
-        self.apply_language()
 
     def toggle_ontop(self):
         self.root.attributes("-topmost", self.ontop_var.get())
