@@ -20,14 +20,14 @@
 
 ## 界面截图
 
-![PC Time Tracker](screenshot_zh.png)
+![PC Time Tracker](screenshots/zh.png)
 
 ## 安装与运行
 
 需要 **Python 3.10+** 以及 `tkinter` 模块(Windows 上默认自带)。
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 如果系统已将 `.py` 关联到 Python,直接双击脚本也可以运行。

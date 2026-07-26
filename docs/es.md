@@ -20,14 +20,14 @@ Cronómetro de tiempo de escritorio ligero para Windows. Cuenta cuánto tiempo p
 
 ## Captura de pantalla
 
-![PC Time Tracker](screenshot_es.png)
+![PC Time Tracker](screenshots/es.png)
 
 ## Instalación y ejecución
 
 Requiere **Python 3.10+** con el módulo `tkinter` (incluido por defecto en Windows).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 También funciona con doble clic si `.py` está asociado con Python.

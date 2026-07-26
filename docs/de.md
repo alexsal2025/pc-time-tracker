@@ -20,14 +20,14 @@ Leichtgewichtiger Zeiterfassungstool für Windows. Zählt, wie lange du am PC ar
 
 ## Screenshot
 
-![PC Time Tracker](screenshot_de.png)
+![PC Time Tracker](screenshots/de.png)
 
 ## Installation und Start
 
 Benötigt **Python 3.10+** mit dem Modul `tkinter` (unter Windows standardmäßig enthalten).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 Ein Doppelklick funktioniert ebenfalls, sofern `.py` mit Python verknüpft ist.

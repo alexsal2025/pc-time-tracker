@@ -20,14 +20,14 @@ Chronomètre de bureau léger pour Windows. Compte le temps passé devant l'ordi
 
 ## Capture d'écran
 
-![PC Time Tracker](screenshot_fr.png)
+![PC Time Tracker](screenshots/fr.png)
 
 ## Installation et lancement
 
 Nécessite **Python 3.10+** avec le module `tkinter` (inclus par défaut sous Windows).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 Un double-clic fonctionne aussi, si l'extension `.py` est associée à Python.

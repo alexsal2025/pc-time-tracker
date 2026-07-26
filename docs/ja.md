@@ -20,14 +20,14 @@ Windows 向けの軽量なデスクトップ利用時間トラッカー。PC の
 
 ## スクリーンショット
 
-![PC Time Tracker](screenshot_ja.png)
+![PC Time Tracker](screenshots/ja.png)
 
 ## インストールと実行
 
 **Python 3.10+** と `tkinter` モジュールが必要です(Windows では標準で同梱されています)。
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 `.py` が Python に関連付けられていれば、ダブルクリックでも起動できます。

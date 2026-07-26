@@ -20,14 +20,14 @@ Lightweight desktop time tracker for Windows. Counts how long you spend at the P
 
 ## Screenshot
 
-![PC Time Tracker](screenshot.png)
+![PC Time Tracker](screenshots/en.png)
 
 ## Install & Run
 
 Requires **Python 3.10+** with the `tkinter` module (included by default on Windows).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 Double-click works too, if `.py` is associated with Python.

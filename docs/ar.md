@@ -20,14 +20,14 @@
 
 ## لقطة الشاشة
 
-![PC Time Tracker](screenshot_ar.png)
+![PC Time Tracker](screenshots/ar.png)
 
 ## التثبيت والتشغيل
 
 يتطلّب **Python 3.10+** مع وحدة `tkinter` (مضمّنة افتراضيًا في Windows).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 النقر المزدوج يعمل أيضًا، إذا كانت ملفات `.py` مربوطة ببرنامج Python.

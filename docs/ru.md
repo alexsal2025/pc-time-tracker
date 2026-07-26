@@ -20,14 +20,14 @@
 
 ## Скриншот
 
-![PC Time Tracker](screenshot_ru.png)
+![PC Time Tracker](screenshots/ru.png)
 
 ## Установка и запуск
 
 Требуется **Python 3.10+** с модулем `tkinter` (входит в стандартную поставку на Windows).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 Также можно просто дважды кликнуть по файлу, если `.py` ассоциирован с Python.

@@ -20,14 +20,14 @@ Cronômetro de tempo de uso leve para Windows. Conta quanto tempo você passa no
 
 ## Captura de tela
 
-![PC Time Tracker](screenshot_pt.png)
+![PC Time Tracker](screenshots/pt.png)
 
 ## Instalação e execução
 
 Requer **Python 3.10+** com o módulo `tkinter` (já incluído por padrão no Windows).
 
 ```bash
-python pc_time_tracker.py
+python src/pc_time_tracker.py
 ```
 
 Um duplo clique também funciona, se `.py` estiver associado ao Python.
