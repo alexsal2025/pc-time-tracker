@@ -16,3 +16,8 @@ Thumbs.db
 
 # Личные данные приложения (если кто-то случайно сохранит data.json рядом)
 data.json
+
+# PyInstaller (build/PC_Time_Tracker.exe — готовый билд — коммитится, не игнорируем)
+dist/
+*.spec
+build/PC_Time_Tracker/
