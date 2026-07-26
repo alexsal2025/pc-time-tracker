@@ -16,7 +16,7 @@ Lightweight desktop time tracker for Windows. Counts how long you spend at the P
 - 🪟 "Always on top" toggle
 - 💾 Auto-save every 10 seconds and on close — sessions survive a reboot
 - 🎨 Dark theme, Consolas/Segoe UI fonts
-- 🇬🇧 English UI
+- 🌐 **10 UI languages** — English (default), Русский, 中文, Español, Français, Deutsch, Português, 日本語, 한국어, العربية
 
 ## Screenshot
 
@@ -34,6 +34,7 @@ Lightweight desktop time tracker for Windows. Counts how long you spend at the P
 │  [ ] Always on top   [✓] Auto-pause │
 │  Idle timeout, sec:  [300] (10…3600)│
 │  Daily goal, h:      [8]   (1…24)   │
+│  Language:           [English ▾]     │
 │                                     │
 │  HISTORY (7 days)            Σ 12:00 │
 │  ...                                │
