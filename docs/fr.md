@@ -16,7 +16,7 @@ Chronomètre de bureau léger pour Windows. Compte le temps passé devant l'ordi
 - 🪟 Option « Toujours au-dessus »
 - 💾 Sauvegarde automatique toutes les 10 secondes et à la fermeture — les sessions survivent à un redémarrage
 - 🎨 Thème sombre, polices Consolas / Segoe UI
-- 🌐 **10 langues d'interface** — English (par défaut), Русский, 中文, Español, Français, Deutsch, Português, 日本語, 한국어, العربية
+- 🌐 **10 langues d'interface** — [English (default)](./README.md), [Русский](./ru.md), [中文](./zh.md), [Español](./es.md), [Français](./fr.md), [Deutsch](./de.md), [Português](./pt.md), [日本語](./ja.md), [한국어](./ko.md), [العربية](./ar.md)
 
 ## Capture d'écran
 

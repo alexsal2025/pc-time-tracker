@@ -1,0 +1,1 @@
+- 🌐 **10 UI languages** — [English (default)](README.md), [Русский](docs/ru.md), [中文](docs/zh.md), [Español](docs/es.md), [Français](docs/fr.md), [Deutsch](docs/de.md), [Português](docs/pt.md), [日本語](docs/ja.md), [한국어](docs/ko.md), [العربية](docs/ar.md)

@@ -16,7 +16,7 @@ Lightweight desktop time tracker for Windows. Counts how long you spend at the P
 - 🪟 "Always on top" toggle
 - 💾 Auto-save every 10 seconds and on close — sessions survive a reboot
 - 🎨 Dark theme, Consolas/Segoe UI fonts
-- 🌐 **10 UI languages** — English (default), Русский, 中文, Español, Français, Deutsch, Português, 日本語, 한국어, العربية
+- 🌐 **10 UI languages** — [English (default)](README.md), [Русский](docs/ru.md), [中文](docs/zh.md), [Español](docs/es.md), [Français](docs/fr.md), [Deutsch](docs/de.md), [Português](docs/pt.md), [日本語](docs/ja.md), [한국어](docs/ko.md), [العربية](docs/ar.md)
 
 ## Screenshot
 

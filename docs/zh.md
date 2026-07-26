@@ -16,7 +16,7 @@
 - 🪟 "总在最前" 切换开关
 - 💾 每 10 秒以及关闭时自动保存 — 重启后会话不丢失
 - 🎨 暗色主题,Consolas / Segoe UI 字体
-- 🌐 **10 种界面语言** — English(默认)、Русский、中文、Español、Français、Deutsch、Português、日本語、한국어、العربية
+- 🌐 **10 种界面语言** — [English (default)](./README.md), [Русский](./ru.md), [中文](./zh.md), [Español](./es.md), [Français](./fr.md), [Deutsch](./de.md), [Português](./pt.md), [日本語](./ja.md), [한국어](./ko.md), [العربية](./ar.md)
 
 ## 界面截图
 

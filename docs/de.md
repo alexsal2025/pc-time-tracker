@@ -16,7 +16,7 @@ Leichtgewichtiger Zeiterfassungstool für Windows. Zählt, wie lange du am PC ar
 - 🪟 „Immer im Vordergrund"-Option
 - 💾 Automatisches Speichern alle 10 Sekunden und beim Schließen — Sitzungen überstehen einen Neustart
 - 🎨 Dunkles Design, Schriftarten Consolas / Segoe UI
-- 🌐 **10 Oberflächensprachen** — English (Standard), Русский, 中文, Español, Français, Deutsch, Português, 日本語, 한국어, العربية
+- 🌐 **10 Oberflächensprachen** — [English (default)](./README.md), [Русский](./ru.md), [中文](./zh.md), [Español](./es.md), [Français](./fr.md), [Deutsch](./de.md), [Português](./pt.md), [日本語](./ja.md), [한국어](./ko.md), [العربية](./ar.md)
 
 ## Screenshot
 

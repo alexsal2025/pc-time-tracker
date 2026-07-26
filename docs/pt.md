@@ -16,7 +16,7 @@ Cronômetro de tempo de uso leve para Windows. Conta quanto tempo você passa no
 - 🪟 Opção "Sempre no topo"
 - 💾 Salvamento automático a cada 10 segundos e ao fechar — as sessões sobrevivem a uma reinicialização
 - 🎨 Tema escuro, fontes Consolas / Segoe UI
-- 🌐 **10 idiomas de interface** — English (padrão), Русский, 中文, Español, Français, Deutsch, Português, 日本語, 한국어, العربية
+- 🌐 **10 idiomas de interface** — [English (default)](./README.md), [Русский](./ru.md), [中文](./zh.md), [Español](./es.md), [Français](./fr.md), [Deutsch](./de.md), [Português](./pt.md), [日本語](./ja.md), [한국어](./ko.md), [العربية](./ar.md)
 
 ## Captura de tela
 

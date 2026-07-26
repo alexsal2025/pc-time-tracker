@@ -16,7 +16,7 @@ Windows 용 가벼운 데스크톱 사용 시간 추적기. PC 앞에서 보낸 
 - 🪟 "항상 위에" 토글
 - 💾 10 초마다 그리고 종료 시 자동 저장 — 재부팅 후에도 세션이 복원됩니다
 - 🎨 다크 테마, Consolas / Segoe UI 폰트 사용
-- 🌐 **10 개 UI 언어** — English (기본값), Русский, 中文, Español, Français, Deutsch, Português, 日本語, 한국어, العربية
+- 🌐 **10 개 UI 언어** — [English (default)](./README.md), [Русский](./ru.md), [中文](./zh.md), [Español](./es.md), [Français](./fr.md), [Deutsch](./de.md), [Português](./pt.md), [日本語](./ja.md), [한국어](./ko.md), [العربية](./ar.md)
 
 ## 스크린샷
 

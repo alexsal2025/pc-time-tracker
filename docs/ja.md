@@ -16,7 +16,7 @@ Windows 向けの軽量なデスクトップ利用時間トラッカー。PC の
 - 🪟 「常に最前面に表示」トグル
 - 💾 10 秒ごと、および終了時に自動保存 — 再起動後もセッションが復元されます
 - 🎨 ダークテーマ、Consolas / Segoe UI フォントを採用
-- 🌐 **10 言語の UI** — English(デフォルト)、Русский、中文、Español、Français、Deutsch、Português、日本語、韓国語、العربية
+- 🌐 **10 言語の UI** — [English (default)](./README.md), [Русский](./ru.md), [中文](./zh.md), [Español](./es.md), [Français](./fr.md), [Deutsch](./de.md), [Português](./pt.md), [日本語](./ja.md), [한국어](./ko.md), [العربية](./ar.md)
 
 ## スクリーンショット
 
